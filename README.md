@@ -1,9 +1,4 @@
 # Minhaz Uddin Portfolio Website
-
-## 📖 Overview
-
-The **Minhaz Uddin** is a personal project that showcases my journey as a software engineer.
-
 ---
 
 ## 🖥️ Tech Stack
@@ -18,7 +13,7 @@ The **Minhaz Uddin** is a personal project that showcases my journey as a softwa
 
 ## 🌟 Live Demo
 
-Visit the live portfolio here: [Minhaz Uddin Portfolio](https://yoonusajward.github.io/Personal-Portfolio-Website/)
+Visit the live portfolio here: [Minhaz Uddin Portfolio](https://minhaz-info.vercel.app/)
 
 ## 📞 Support
 
