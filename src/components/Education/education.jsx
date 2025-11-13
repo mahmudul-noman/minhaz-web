@@ -6,20 +6,13 @@ import GlowCard from "../GlowCard/glowcard";
 const educations = [
   {
     id: 1,
-    title: "BSc (Hons) in Computer Science",
-    grade: "First-Class Honours",
-    institution: "APIIT Sri Lanka (in affiliation with Staffordshire University, UK)",
-    duration: "March 2024 – December 2024",
-    gpa: "4.0",
-    coursework: "Web Frameworks, Emerging Technologies, Decision Analytics, Final Year Project"
-  },
-  {
-    id: 2,
-    title: "Pearson BTEC HND in Computing (Software Engineering)",
-    grade: "Grade Pass",
-    institution: "APIIT Sri Lanka",
-    duration: "April 2022 – December 2023"
-    // Coursework not shown intentionally for brevity
+    title: "Bachelor of Science (BSc) in Computer Science and Engineering",
+    // grade: "Ongoing",
+    institution: "Daffodil International University, Bangladesh",
+    duration: "January 2019 – January 2023",
+    grade: "CGPA: 3.85 / 4.00",
+    coursework:
+      "Data Structures and Algorithms, Database Systems, Software Engineering, Web Application Development, Artificial Intelligence, Computer Networks",
   },
 ];
 
@@ -47,14 +40,19 @@ function Education() {
                     {education.grade && (
                       <>
                         <br />
-                        <span className="education-grade">Grade: {education.grade}</span>
+                        <span className="education-grade">
+                          {education.grade}
+                        </span>
                       </>
                     )}
                   </h3>
-                  <p className="education-institution">{education.institution}</p>
+                  <p className="education-institution">
+                    {education.institution}
+                  </p>
                   {education.coursework && (
                     <p className="education-coursework">
-                      <strong>Relevant Coursework:</strong> {education.coursework}
+                      <strong>Relevant Coursework:</strong>{" "}
+                      {education.coursework}
                     </p>
                   )}
                 </div>

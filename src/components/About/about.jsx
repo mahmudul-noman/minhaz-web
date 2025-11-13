@@ -9,7 +9,15 @@ const About = () => {
         <div className="aboutText">
           <h2 className="aboutHeading">About Me</h2>
           <p className="aboutDescription">
-            I'm <strong>Yoonus Ajward</strong>, a dedicated and enthusiastic software engineer with a strong foundation in full-stack web and mobile application development. I'm a self-motivated learner who thrives in dynamic environments and enjoys exploring emerging technologies. I focus on delivering high-quality, impactful digital solutions, and I'm always eager to contribute to innovative projects that align with my values and expertise.
+            I'm <strong>Minhaz Uddin</strong>, a passionate and dedicated
+            Backend Software Engineer specializing in Python and Django. I enjoy
+            building scalable, secure, and efficient backend systems that power
+            seamless user experiences. With a strong foundation in full-stack
+            development, I focus on writing clean, maintainable code, designing
+            RESTful APIs, and ensuring performance optimization across all
+            layers of a project. I’m a self-driven learner, always exploring new
+            backend technologies, cloud solutions, and DevOps practices to
+            enhance my technical depth and deliver real-world impact.
           </p>
         </div>
         <div className="aboutImageContainer">

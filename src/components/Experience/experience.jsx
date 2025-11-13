@@ -7,58 +7,60 @@ import GlowCard from "../GlowCard/glowcard";
 const experiences = [
   {
     id: 1,
-    title: "Associate Software Engineer",
-    company: "WIS Sri Lanka",
-    companyWebsite: "https://wisaccountancy.co.uk/",
+    title: "Backend Software Engineer",
+    company: "Riseup Labs",
+    companyWebsite: "https://riseuplabs.com/",
     duration: "September 2025 – Present",
     description: [
-      "Building and maintaining full-stack applications using Python, Next.js, MERN, TypeScript, and Tailwind CSS.",
-      "Designed and developed scalable backend services and REST APIs while integrating with frontend interfaces.",
-      "Implemented responsive and dynamic UI components with Next.js and Tailwind for improved user experience.",
-      "Optimized database queries and server-side logic to enhance application performance and reliability.",
-      "Collaborated with product managers, designers, and QA engineers to deliver features aligned with business requirements.",
-      "Practiced agile development with sprint planning, code reviews, and version control using Git.",
-      "Contributed to both greenfield projects and existing systems, balancing innovation with maintenance."
+      "Designing, developing, and maintaining scalable backend systems using Python and Django.",
+      "Building RESTful APIs with Django REST Framework (DRF) to power web and mobile applications.",
+      "Implementing authentication, permissions, and optimized querysets for secure and efficient data handling.",
+      "Integrating third-party APIs and managing background tasks using Celery and Redis.",
+      "Collaborating with frontend and mobile teams to ensure seamless API integration and consistent data flow.",
+      "Deploying applications using Docker, Gunicorn, and Nginx while maintaining CI/CD workflows.",
+      "Optimizing database performance and caching for improved scalability and reliability."
     ],
     tools: [
       "Python",
-      "Next.js",
-      "MERN Stack",
-      "TypeScript",
-      "Tailwind CSS",
-      "REST APIs",
+      "Django",
+      "Django REST Framework",
+      "PostgreSQL",
+      "Celery",
+      "Redis",
+      "Docker",
       "Git",
-      "Agile"
+      "Nginx"
     ],
   },
   {
     id: 2,
     title: "Backend Developer Intern",
-    company: "Accron Revolutions",
-    companyWebsite: "https://www.accronautobot.com/",
+    company: "Beyond Bracket Ltd.",
+    companyWebsite: "https://beyondbracket.com/",
     duration: "January 2025 – July 2025",
     description: [
-      "Worked on real-world projects including websites, mobile apps, POS systems, and order management platforms.",
-      "Built and maintained backend services using Firebase, Node.js, and RESTful APIs.",
-      "Designed and optimized Firestore databases to improve data structure and query performance.",
-      "Integrated external APIs and managed cloud-based services to streamline data flow across platforms.",
-      "Resolved bugs and performance issues in backend logic to ensure stable deployment and user experience.",
-      "Collaborated with frontend developers to deliver seamless integration with UI components built in Next.js.",
-      "Assisted in frontend enhancements and UI fixes as required.",
-      "Participated in agile sprints, version control workflows, and regular feature testing."
+      "Assisted in building backend modules and RESTful APIs using Python and Django REST Framework.",
+      "Developed and maintained database models, serializers, and viewsets to support dynamic data operations.",
+      "Implemented JWT authentication, role-based permissions, and API versioning for secure access control.",
+      "Worked on caching strategies and background task queues using Redis and Celery.",
+      "Contributed to testing and debugging to enhance API reliability and response time.",
+      "Collaborated with senior engineers on deployment, containerization, and API documentation.",
+      "Participated in agile sprints, code reviews, and collaborative problem-solving sessions."
     ],
     tools: [
-      "TypeScript",
-      "Next.js",
-      "Node.js",
-      "JavaScript",
-      "Express.js",
-      "Firebase",
-      "Firestore",
-      "NoSQL"
+      "Python",
+      "Django",
+      "Django REST Framework",
+      "PostgreSQL",
+      "Redis",
+      "Celery",
+      "Docker",
+      "Git",
+      "Swagger"
     ],
   },
 ];
+
 
 function Experience() {
   return (
