@@ -2,120 +2,99 @@ import React from "react";
 import "./project.css";
 import { FaGithub } from "react-icons/fa";
 import { GrView } from "react-icons/gr";
-import alfiePetImage from "../../assets/alfie-pet-supplies-homepage.png";
-import journeyDiariesImage from "../../assets/journey-diaries-homepage.png";
-import blackBerryImage from "../../assets/blackberry-homepage.png";
-import tripTunerImage from "../../assets/triptuner-interfaces.png";
-import taskManagerImage from "../../assets/task-manager-homepage.png";
+import socialMediaImage from "../../assets/social-media-homepage.png";
 import ecommerceImage from "../../assets/ecommerce-homepage.png";
-import taskTrackerImage from "../../assets/task-tracker-homepage.png";
-import portfolioImage from "../../assets/portfolio-homepage.png";
-import yoAppImage from "../../assets/yo-app-homepage.png";
+import taskManagerImage from "../../assets/task-manager-homepage.png";
+import blogPlatformImage from "../../assets/blog-platform-homepage.png";
+import elearningImage from "../../assets/elearning-homepage.png";
 
 function Projects() {
   const projects = [
     {
-      name: "Yo Social Media App",
+      name: "Social Media Platform (Django)",
       description:
-        "A full-stack social media platform enabling user registration, real-time posting, likes, comments, and profile management. Built with a responsive design for both web and mobile, it delivers a smooth and engaging user experience.",
+        "A full-stack social media platform built with Django and Django REST Framework. Features user registration, authentication, posting, likes, comments, and profile management. Integrated with a responsive React frontend.",
       tools: [
-        "Next.js", "React", "TypeScript", "Firestore", "Firebase", "Tailwind CSS", "Redux Toolkit", "Material UI"
-      ],
-      demo: "https://yo-app-social-media-app.vercel.app/",
-      image: yoAppImage,
-    },
-    {
-      name: "Personal Portfolio Website",
-      description:
-        "A responsive portfolio website showcasing my projects, skills, and experience. Built using React and CSS, it features dynamic sections, a projects gallery, and seamless navigation.",
-      tools: ["React", "CSS", "React Router", "EmailJS", "JavaScript"],
-      github: "https://github.com/yoonusajward/Personal-Portfolio-Website",
-      demo: "https://yoonusajward.github.io/Personal-Portfolio-Website/",
-      image: portfolioImage,
-    },
-    {
-      name: "TripTuner - AI Travel Plan Mobile Application",
-      description:
-        "TripTuner is a mobile app designed to help users plan travel itineraries using a trained GPT model. The app features a user-friendly interface for an enhanced experience.",
-      tools: [
-        "Kotlin",
         "Python",
-        "Firebase",
-        "XML Layouts",
-        "Android Studio",
-        "Google Colab",
-        "Hugging Face Transformers",
-        "GPT-2 Model",
-      ],
-      github:
-        "https://github.com/yoonusajward/TripTuner-TravelPlan-MobileAppKotlin",
-      image: tripTunerImage,
-    },
-    {
-      name: "Alfie Pet Supplies - Pet-Oriented Web App",
-      description:
-        "Alfie Pet Supplies allows users to browse and order pet products with a responsive UI. It integrates external APIs for a cart system, pet adoption, health tips, and dynamic content from the Cat Fact API.",
-      tools: [
-        "Vue.js",
+        "Django",
+        "Django REST Framework",
+        "React",
+        "PostgreSQL",
         "Tailwind CSS",
-        "JavaScript",
-        "Firebase",
-        "REST API",
-        "HTML",
-        "CSS",
+        "Docker",
+        "Git",
       ],
-      github: "https://github.com/yoonusajward/Alfie-Pet-Supplies",
-      demo: "https://alfiepetsupplies-01.web.app/",
-      image: alfiePetImage,
+      github: "https://github.com/yourusername/social-media-django",
+      demo: "https://socialmedia-django-demo.vercel.app/",
+      image: socialMediaImage,
     },
     {
-      name: "E-commerce Fashion Store",
+      name: "E-commerce Web Application (Django)",
       description:
-        "A fully functional e-commerce site built using React. Features include product listings, a shopping cart, and a responsive checkout process.",
-      tools: ["React", "CSS", "HTML", "React Router", "JavaScript"],
-      github: "https://github.com/yoonusajward/ecommerce-react-project",
-      demo: "https://yoonusajward.github.io/ecommerce-react-project/",
+        "A scalable e-commerce platform built with Django and DRF. Supports product listings, shopping cart, checkout, payment integration, and admin dashboards. Backend optimized with PostgreSQL and Redis caching.",
+      tools: [
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "PostgreSQL",
+        "Redis",
+        "React",
+        "Tailwind CSS",
+        "Docker",
+      ],
+      github: "https://github.com/yourusername/django-ecommerce",
+      demo: "https://django-ecommerce-demo.vercel.app/",
       image: ecommerceImage,
     },
     {
-      name: "BlackBerry CRUD Application",
+      name: "Task Manager API (Django REST Framework)",
       description:
-        "A web application built with the MEVN stack to manage business data. Includes full CRUD operations, a dashboard, and role-based views.",
-      tools: ["MongoDB", "Express.js", "Vue.js", "Node.js", "CSS", "Axios"],
-      github: "https://github.com/yoonusajward/BlackBerry-CRUD-Application",
-      image: blackBerryImage,
-    },
-    {
-      name: "Task Manager Application",
-      description:
-        "A full-stack task management app built with React, Node.js (Express), and MySQL. It supports CRUD operations with filtering and status updates.",
-      tools: ["React", "Node.js", "Express.js", "MySQL", "Tailwind CSS"],
-      github: "https://github.com/yoonusajward/task-manager-app",
+        "A RESTful task management backend built with Django REST Framework. Supports CRUD operations, user authentication, task categorization, and status tracking. Frontend integration can be done with React or Next.js.",
+      tools: [
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Git",
+      ],
+      github: "https://github.com/yourusername/django-task-manager",
+      demo: "https://django-ecommerce-demo.vercel.app/",
       image: taskManagerImage,
     },
     {
-      name: "Task Tracker Application",
+      name: "Blog Platform (Django)",
       description:
-        "A web-based task manager built with Laravel, including Livewire, Filament UI, and MySQL integration. Supports real-time updates and full CRUD features.",
-      tools: ["Laravel", "PHP", "Blade", "Livewire", "Filament", "MySQL"],
-      github: "https://github.com/yoonusajward/Task-Tracker-Laravel",
-      image: taskTrackerImage,
+        "A content management and blogging platform built with Django. Features user registration, blog creation, comments, categories, search, and admin panel for content management.",
+      tools: [
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "PostgreSQL",
+        "React",
+        "Tailwind CSS",
+      ],
+      github: "https://github.com/yourusername/django-blog-platform",
+      demo: "https://django-blog-demo.vercel.app/",
+      image: blogPlatformImage,
     },
     {
-      name: "Journey Diaries - Travel Blog",
+      name: "Online Learning Platform (Django)",
       description:
-        "A responsive travel blog with real-time weather updates, embedded travel videos, secure payment options, and a custom search experience.",
+        "Backend for an e-learning platform built with Django and DRF. Features course creation, video content hosting, user enrollment, progress tracking, and quiz management.",
       tools: [
-        "HTML",
-        "CSS",
-        "PHP",
-        "JavaScript",
-        "Bootstrap",
-        "MySQL",
-        "REST API",
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Git",
       ],
-      github: "https://github.com/yoonusajward/Journey-Diaries",
-      image: journeyDiariesImage,
+      github: "https://github.com/yourusername/django-elearning",
+      demo: "https://django-blog-demo.vercel.app/",
+      image: elearningImage,
     },
   ];
 
@@ -128,11 +107,10 @@ function Projects() {
       </div>
 
       <p className="projects-description">
-        I’m passionate about creating software that is not only functional but
-        also meticulously crafted. My dedication to detail ensures every
-        project meets the highest standards. I look forward to applying my
-        skills and experience to help businesses achieve their goals and build
-        a strong online presence.
+        I’m passionate about building software that is efficient and
+        well-crafted. With a strong focus on quality and attention to detail, I
+        ensure every project meets high standards. I leverage my Python/Django
+        expertise to deliver impactful digital solutions.
       </p>
 
       <div className="projects-grid">
